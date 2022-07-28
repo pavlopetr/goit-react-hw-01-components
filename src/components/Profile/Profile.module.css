@@ -1,0 +1,83 @@
+.profile {
+    background-color:rgb(255, 255, 255);
+    width: 350px;
+    padding: 20px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12),
+        0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
+.avatar {
+    display: block;
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(221, 213, 221);
+}
+
+.name {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 1.18;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.tag {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.9;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.location {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.9;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.stats {
+    list-style: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.9;
+    text-align: center;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(186, 227, 235);
+}
+
+.item {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    border: 1px #f3ebeb solid;
+}
+
+.label {
+    color: darkgray;
+    font-weight: 500;
+    display: block;
+    width: 100%;
+}
+
+.quantity {
+    display: block;
+}
